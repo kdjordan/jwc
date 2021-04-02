@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  --green: hsl(160deg, 100%, 30%);
+
+  --lite-gold: hsl(45deg, 100%, 50%);
+  --dark-gold: hsl(45deg, 100%, 40%);
+
+  --black: hsl(0deg, 0%, 0%);
+  --black-1: hsl(0deg, 0%, 10%);
+  --black-2: hsl(0deg, 0%, 30%);
+  --grey-1: hsl(0deg, 0%, 40%);
+  --grey-2: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  color: var(--green);
+}
+
+.max-width-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  background-color: var(--grey-2);
+  border-top: 6px solid var(--grey-1);
+}
+
+.indented-heading {
+  background-color: var(--lite-gold);
+  border-bottom: 8px solid var(--dark-gold);
+  width: max-content;
+  padding: 16px 24px;
+  margin: 0 auto;
+  margin-left: -16px;
+}
+
+/* Add styles here! */
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
