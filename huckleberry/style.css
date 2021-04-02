@@ -18,10 +18,22 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  color: var(--grey-1);
 }
 
 strong {
   color: var(--green);
+}
+
+header {
+  background-color: var(--white);
+}
+
+main {
+  background-color: var(--grey-2);
+  border-top: 6px solid var(--grey-1);
+  height: 100%;
 }
 
 .max-width-wrapper {
@@ -29,18 +41,39 @@ strong {
   margin: 0 auto;
 }
 
-main {
-  background-color: var(--grey-2);
-  border-top: 6px solid var(--grey-1);
-}
 
 .indented-heading {
   background-color: var(--lite-gold);
   border-bottom: 8px solid var(--dark-gold);
   width: max-content;
-  padding: 16px 24px;
+  padding: 16px 40px;
   margin: 0 auto;
-  margin-left: -16px;
+  margin-left: -48px;
+  min-width: 300px;
+}
+
+.card {
+  background-color: var(--white);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 64px;
+  border-bottom: 8px solid var(--grey-1);
+  padding: 8px 32px 16px;
+  line-height: 1.5;
+  min-width: 300px;
+}
+
+.intro-chunk {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.intro-chunk p {
+  border: 1px solid red;
+  padding: 16px 0;
+  width: 30%;
+  /* padding-right: 64px; */
+
 }
 
 /* Add styles here! */
