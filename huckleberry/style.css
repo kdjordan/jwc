@@ -18,8 +18,13 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
   color: var(--grey-1);
+  line-height: 1.25;
+}
+
+body {
+  height: 100%;
+  width: 100%;
 }
 
 strong {
@@ -34,6 +39,11 @@ main {
   background-color: var(--grey-2);
   border-top: 6px solid var(--grey-1);
   height: 100%;
+  width: 100%;
+}
+
+h1 {
+  padding: 32px 0;
 }
 
 .max-width-wrapper {
@@ -41,6 +51,33 @@ main {
   margin: 0 auto;
 }
 
+.intro-chunk {
+  width: 600px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-bottom: 64px;
+}
+
+.intro-chunk p {
+  width: 50%;
+  padding-right: 32px;
+}
+
+.card {
+  background-color: var(--white);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 64px;
+  border-bottom: 8px solid var(--grey-1);
+  padding-top: 8px;
+}
+
+.card p {
+  width: 90%;
+  margin: 0 auto;
+  padding: 16px 0;
+  /* padding: 8px 32px 16px; */
+}
 
 .indented-heading {
   background-color: var(--lite-gold);
@@ -48,32 +85,6 @@ main {
   width: max-content;
   padding: 16px 40px;
   margin: 0 auto;
-  margin-left: -48px;
+  margin-left: -8px;
   min-width: 300px;
 }
-
-.card {
-  background-color: var(--white);
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 64px;
-  border-bottom: 8px solid var(--grey-1);
-  padding: 8px 32px 16px;
-  line-height: 1.5;
-  min-width: 300px;
-}
-
-.intro-chunk {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.intro-chunk p {
-  border: 1px solid red;
-  padding: 16px 0;
-  width: 30%;
-  /* padding-right: 64px; */
-
-}
-
-/* Add styles here! */
