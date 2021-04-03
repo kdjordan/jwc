@@ -1,93 +1,114 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@kdjordan 
+joshwcomeau
+/
+css-for-js-flow-layout
+1
+102
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+css-for-js-flow-layout/style.css
+@joshwcomeau
+joshwcomeau My solution, recorded
+Latest commit 6e17166 on Nov 26, 2020
+ History
+ 1 contributor
+80 lines (66 sloc)  1.04 KB
+  
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  --green: hsl(160deg, 100%, 30%);
-
-  --lite-gold: hsl(45deg, 100%, 50%);
-  --dark-gold: hsl(45deg, 100%, 40%);
-
-  --black: hsl(0deg, 0%, 0%);
-  --black-1: hsl(0deg, 0%, 10%);
-  --black-2: hsl(0deg, 0%, 30%);
-  --grey-1: hsl(0deg, 0%, 40%);
-  --grey-2: hsl(0deg, 0%, 60%);
-  --white: hsl(0deg, 0%, 100%);
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  color: var(--grey-1);
-  line-height: 1.25;
 }
 
-body {
-  height: 100%;
-  width: 100%;
+/* Add styles here! */
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
-strong {
-  color: var(--green);
-}
-
-header {
-  background-color: var(--white);
-}
-
-main {
-  background-color: var(--grey-2);
-  border-top: 6px solid var(--grey-1);
-  height: 100%;
-  width: 100%;
-}
-
-h1 {
-  padding: 32px 0;
+html {
+  font-size: 18px;
 }
 
 .max-width-wrapper {
-  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .intro-chunk {
-  width: 600px;
-  margin: 0 auto;
-  padding-left: 16px;
-  padding-bottom: 64px;
+  padding: 96px 0 48px;
+  max-width: 400px;
 }
 
 .intro-chunk p {
-  width: 50%;
-  padding-right: 32px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 96px 0;
 }
 
 .card {
-  background-color: var(--white);
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 64px;
-  border-bottom: 8px solid var(--grey-1);
-  padding-top: 8px;
-}
-
-.card p {
-  width: 90%;
-  margin: 0 auto;
-  padding: 16px 0;
-  /* padding: 8px 32px 16px; */
+  background-color: white;
+  padding: 24px;
+  margin: -24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
 }
 
 .indented-heading {
-  background-color: var(--lite-gold);
-  border-bottom: 8px solid var(--dark-gold);
-  width: max-content;
-  padding: 16px 40px;
-  margin: 0 auto;
-  margin-left: -8px;
-  min-width: 300px;
+  background: hsl(45deg, 100%, 50%);
+  margin-left: -32px;
+  margin-top: -16px;
+  padding: 16px 32px;
+  width: fit-content;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
+
+.card p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
 
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
