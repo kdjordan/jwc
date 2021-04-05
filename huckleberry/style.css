@@ -1,34 +1,4 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@kdjordan 
-joshwcomeau
-/
-css-for-js-flow-layout
-1
-102
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-css-for-js-flow-layout/style.css
-@joshwcomeau
-joshwcomeau My solution, recorded
-Latest commit 6e17166 on Nov 26, 2020
- History
- 1 contributor
-80 lines (66 sloc)  1.04 KB
-  
-* {
+  * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
