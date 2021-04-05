@@ -27,14 +27,9 @@
 }
 
 .characterWrapper {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 80px;
-  margin-top: 128px;
+  min-height: 500px;
 }
 
 .controlColumn {
   width: 50%;
-  /* border: 1px solid red; */
 }
